@@ -11,7 +11,7 @@ namespace OpenAI
         [SerializeField] private InputField inputField;
         [SerializeField] private Button button;
 
-        //Locations : 
+        //Locations
         [SerializeField] private Button gardenButton;
         private bool gardenVisited = false;
         [SerializeField] private Button scriptoriumButton;
@@ -24,7 +24,7 @@ namespace OpenAI
         private bool cryptVisited = false;
         [SerializeField] private RectTransform context;
 
-        //Clues :
+        //Clues
         bool clueMissingHeart = false;
 
         [SerializeField] private RectTransform sent;
